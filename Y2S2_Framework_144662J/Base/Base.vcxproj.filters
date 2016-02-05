@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="2D">
+      <UniqueIdentifier>{78a69225-fe6f-4174-b4c6-ada9c7bd7b5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SceneGraph">
+      <UniqueIdentifier>{9c72f78f-97a8-41f5-b67f-606ff5108d8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SpatialPartition">
+      <UniqueIdentifier>{818bb319-bf53-4fc2-80db-df13c4cfb3a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Projectile">
+      <UniqueIdentifier>{02e9e261-1857-4694-be8c-903ee7625d16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene">
+      <UniqueIdentifier>{1d865184-5c6d-48b6-82ef-e86ffc424ef9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game State Management">
+      <UniqueIdentifier>{bc9aa255-6d35-4617-84f6-0535a9414778}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Etc">
+      <UniqueIdentifier>{a5c4fda7-9a1c-4e3c-b1d6-c0c2951810e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Enemy">
+      <UniqueIdentifier>{78893e64-7e10-4abe-8df5-d148abbf4430}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Defend">
+      <UniqueIdentifier>{8383b41c-24bb-45b3-9479-76313e078443}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MeshBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LoadTGA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LoadOBJ.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Strategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Strategy_Kill.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TreasureChest.cpp">
+      <Filter>2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Goodies.cpp">
+      <Filter>2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GoodiesFactory.cpp">
+      <Filter>2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Minimap.cpp">
+      <Filter>2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PlayerInfo.cpp">
+      <Filter>2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStateManager.cpp">
+      <Filter>Source Files\Game State Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IntroState.cpp">
+      <Filter>Source Files\Game State Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MenuState.cpp">
+      <Filter>Source Files\Game State Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PlayState.cpp">
+      <Filter>Source Files\Game State Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneGraph\Model.cpp">
+      <Filter>Source Files\SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneGraph\Node.cpp">
+      <Filter>Source Files\SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneGraph\SceneNode.cpp">
+      <Filter>Source Files\SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneGraph\Transform.cpp">
+      <Filter>Source Files\SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneManager.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneManager2D.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneManager2D_Intro.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneManager2D_Menu.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ClickText.cpp">
+      <Filter>Source Files\Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SpatialPartition\Grid.cpp">
+      <Filter>Source Files\SpatialPartition</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SpatialPartition\SpatialPartition.cpp">
+      <Filter>Source Files\SpatialPartition</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Projectile\Projectile.cpp">
+      <Filter>Source Files\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Projectile\ProjectileManager.cpp">
+      <Filter>Source Files\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Enemy.cpp">
+      <Filter>Source Files\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Defend.cpp">
+      <Filter>Source Files\Defend</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EnemyManager.cpp">
+      <Filter>Source Files\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Luala.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Application.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Geometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\shader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Vertex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MeshBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LoadTGA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LoadOBJ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Strategy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Strategy_Kill.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Goodies.h">
+      <Filter>2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GoodiesFactory.h">
+      <Filter>2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TreasureChest.h">
+      <Filter>2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Minimap.h">
+      <Filter>2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PlayerInfo.h">
+      <Filter>2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameState.h">
+      <Filter>Source Files\Game State Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStateManager.h">
+      <Filter>Source Files\Game State Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IntroState.h">
+      <Filter>Source Files\Game State Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MenuState.h">
+      <Filter>Source Files\Game State Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PlayState.h">
+      <Filter>Source Files\Game State Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneGraph\Model.h">
+      <Filter>Source Files\SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneGraph\Node.h">
+      <Filter>Source Files\SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneGraph\SceneNode.h">
+      <Filter>Source Files\SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneGraph\Transform.h">
+      <Filter>Source Files\SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneManager.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneManager2D.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneManager2D_Intro.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneManager2D_Menu.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ClickText.h">
+      <Filter>Source Files\Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SpatialPartition\Grid.h">
+      <Filter>Source Files\SpatialPartition</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SpatialPartition\SpatialPartition.h">
+      <Filter>Source Files\SpatialPartition</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Projectile\Projectile.h">
+      <Filter>Source Files\Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Projectile\ProjectileManager.h">
+      <Filter>Source Files\Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Enemy.h">
+      <Filter>Source Files\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Defend.h">
+      <Filter>Source Files\Defend</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EnemyManager.h">
+      <Filter>Source Files\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Luala.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

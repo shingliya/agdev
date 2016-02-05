@@ -1,0 +1,164 @@
+﻿Build started 1/29/2016 8:58:35 PM.
+     1>Project "C:\Users\Shing\Desktop\Y2S2_Framework_144662J\Base\Base.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\Shing\Desktop\Y2S2_Framework_144662J\/Common/Source /IC:\Users\Shing\Desktop\Y2S2_Framework_144662J\/glew/include /IC:\Users\Shing\Desktop\Y2S2_Framework_144662J\/glfw/include /IC:\Users\Shing\Desktop\Y2S2_Framework_144662J\/lua /IC:\Users\Shing\Desktop\Y2S2_Framework_144662J\/lua/ /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _VARIADIC_MAX=10 /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source\Application.cpp Source\Camera.cpp Source\Camera3.cpp Source\GameStateManager.cpp Source\MenuState.cpp Source\PlayState.cpp Source\Player.cpp Source\SceneManager.cpp Source\SceneManager2D.cpp Source\SceneManager2D_Intro.cpp Source\SceneManager2D_Menu.cpp Source\main.cpp
+         Application.cpp
+         Camera.cpp
+         Camera3.cpp
+     1>Source\Camera3.cpp(438): warning C4244: '+=' : conversion from 'const double' to 'float', possible loss of data
+     1>Source\Camera3.cpp(460): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>Source\Camera3.cpp(462): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Source\Camera3.cpp(464): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>Source\Camera3.cpp(466): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>Source\Camera3.cpp(472): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>Source\Camera3.cpp(478): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Source\Camera3.cpp(484): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Source\Camera3.cpp(493): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Source\Camera3.cpp(499): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Source\Camera3.cpp(505): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Source\Camera3.cpp(514): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Source\Camera3.cpp(522): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>Source\Camera3.cpp(528): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Source\Camera3.cpp(535): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+         GameStateManager.cpp
+     1>Source\GameStateManager.cpp(5): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+         MenuState.cpp
+     1>Source\MenuState.cpp(135): warning C4018: '<' : signed/unsigned mismatch
+     1>Source\MenuState.cpp(137): warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+         PlayState.cpp
+     1>Source\PlayState.cpp(148): warning C4805: '==' : unsafe mix of type 'const int' and type 'bool' in operation
+     1>Source\PlayState.cpp(150): warning C4805: '==' : unsafe mix of type 'const int' and type 'bool' in operation
+     1>Source\PlayState.cpp(156): warning C4018: '<' : signed/unsigned mismatch
+     1>Source\PlayState.cpp(158): warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+         Player.cpp
+     1>Source\Player.cpp(77): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>Source\Player.cpp(83): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>Source\Player.cpp(89): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>Source\Player.cpp(168): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
+     1>Source\Player.cpp(174): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
+     1>Source\Player.cpp(180): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
+     1>Source\Player.cpp(241): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>Source\Player.cpp(245): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>Source\Player.cpp(249): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>Source\Player.cpp(251): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>Source\Player.cpp(271): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>Source\Player.cpp(275): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>Source\Player.cpp(279): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>Source\Player.cpp(283): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>Source\Player.cpp(287): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>Source\Player.cpp(291): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>Source\Player.cpp(299): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Source\Player.cpp(300): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>Source\Player.cpp(309): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Source\Player.cpp(310): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>Source\Player.cpp(314): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Source\Player.cpp(444): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>Source\Player.cpp(452): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Source\Player.cpp(463): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>Source\Player.cpp(471): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Source\Player.cpp(480): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>Source\Player.cpp(495): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Source\Player.cpp(499): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Source\Player.cpp(503): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>Source\Player.cpp(518): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>Source\Player.cpp(522): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>Source\Player.cpp(526): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>Source\Player.cpp(541): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Source\Player.cpp(545): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Source\Player.cpp(549): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>Source\Player.cpp(564): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Source\Player.cpp(568): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Source\Player.cpp(572): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>Source\Player.cpp(587): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Source\Player.cpp(591): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Source\Player.cpp(595): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>Source\Player.cpp(610): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Source\Player.cpp(614): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Source\Player.cpp(618): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>Source\Player.cpp(633): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>Source\Player.cpp(637): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>Source\Player.cpp(641): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>Source\Player.cpp(656): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>Source\Player.cpp(660): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>Source\Player.cpp(664): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>Source\Player.cpp(680): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>Source\Player.cpp(691): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>Source\Player.cpp(694): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Source\Player.cpp(699): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Source\Player.cpp(706): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Source\Player.cpp(714): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>Source\Player.cpp(729): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>Source\Player.cpp(732): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Source\Player.cpp(737): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Source\Player.cpp(744): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Source\Player.cpp(752): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+         SceneManager.cpp
+     1>Source\SceneManager.cpp(59): warning C4018: '<' : signed/unsigned mismatch
+     1>Source\SceneManager.cpp(191): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>Source\SceneManager.cpp(220): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>Source\SceneManager.cpp(250): warning C4305: '=' : truncation from 'double' to 'float'
+     1>Source\SceneManager.cpp(321): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Source\SceneManager.cpp(412): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>Source\SceneManager.cpp(705): warning C4018: '<' : signed/unsigned mismatch
+     1>Source\SceneManager.cpp(726): warning C4018: '<' : signed/unsigned mismatch
+     1>Source\SceneManager.cpp(873): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Source\SceneManager.cpp(875): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Source\SceneManager.cpp(880): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>Source\SceneManager.cpp(890): warning C4305: 'argument' : truncation from 'double' to 'float'
+         SceneManager2D.cpp
+         SceneManager2D_Intro.cpp
+         SceneManager2D_Menu.cpp
+     1>Source\SceneManager2D_Menu.cpp(23): warning C4018: '<' : signed/unsigned mismatch
+     1>Source\SceneManager2D_Menu.cpp(55): warning C4018: '<' : signed/unsigned mismatch
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Shing\Desktop\Y2S2_Framework_144662J\Release\Base.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Users\Shing\Desktop\Y2S2_Framework_144662J\Release /LIBPATH:"C:\Users\Shing\Desktop\Y2S2_Framework_144662J\/glfw/lib-msvc100" /LIBPATH:C:\Users\Shing\Desktop\Y2S2_Framework_144662J\/glew/lib /LIBPATH:C:\Users\Shing\Desktop\Y2S2_Framework_144662J\/lua /LIBPATH:C:\Users\Shing\Desktop\Y2S2_Framework_144662J\/lua/include Common.lib winmm.lib opengl32.lib glu32.lib glew32.lib glfw3.lib lua5.1.lib lua5.1.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Shing\Desktop\Y2S2_Framework_144662J\Release\Base.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Shing\Desktop\Y2S2_Framework_144662J\Release\Base.lib" /MACHINE:X86 /SAFESEH Release\Application.obj
+         Release\Camera.obj
+         Release\Camera3.obj
+         Release\ClickText.obj
+         Release\Defend.obj
+         Release\Enemy.obj
+         Release\EnemyManager.obj
+         Release\GameStateManager.obj
+         Release\Goodies.obj
+         Release\GoodiesFactory.obj
+         Release\IntroState.obj
+         Release\LoadOBJ.obj
+         Release\LoadTGA.obj
+         Release\Luala.obj
+         Release\main.obj
+         Release\Map.obj
+         Release\MenuState.obj
+         Release\Mesh.obj
+         Release\MeshBuilder.obj
+         Release\Minimap.obj
+         Release\Player.obj
+         Release\PlayerInfo.obj
+         Release\PlayState.obj
+         Release\Projectile.obj
+         Release\ProjectileManager.obj
+         Release\Model.obj
+         Release\Node.obj
+         Release\SceneNode.obj
+         Release\Transform.obj
+         Release\SceneManager.obj
+         Release\SceneManager2D.obj
+         Release\SceneManager2D_Intro.obj
+         Release\SceneManager2D_Menu.obj
+         Release\shader.obj
+         Release\Grid.obj
+         Release\SpatialPartition.obj
+         Release\Strategy.obj
+         Release\Strategy_Kill.obj
+         Release\TreasureChest.obj
+         Release\Utility.obj
+         Generating code
+     1>c:\users\shing\desktop\y2s2_framework_144662j\base\source\projectile\projectilemanager.cpp(151): warning C4715: 'CProjectileManager::AddRayProjectile' : not all control paths return a value
+     1>c:\users\shing\desktop\y2s2_framework_144662j\base\source\projectile\projectilemanager.cpp(113): warning C4715: 'CProjectileManager::Add3rdPersonProjectile' : not all control paths return a value
+         Finished generating code
+         Base.vcxproj -> C:\Users\Shing\Desktop\Y2S2_Framework_144662J\Release\Base.exe
+     1>Done Building Project "C:\Users\Shing\Desktop\Y2S2_Framework_144662J\Base\Base.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:14.36
